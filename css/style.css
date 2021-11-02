@@ -1,0 +1,25 @@
+/* variables */
+
+:root {
+	--main-bg-color: linear-gradient(90deg, #69b7eb, #3affbd);
+	--container-bg: linear-gradient(180deg, #65bffa9c, #ff8888c9);
+}
+
+img {
+	width: 35px;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins';
+	background: var(--main-bg-color);
+}
+
+.container {
+	background: var(--container-bg);
+}
