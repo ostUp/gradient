@@ -15,6 +15,10 @@ img {
 	box-sizing: border-box;
 }
 
+a{
+	text-decoration: none;
+}
+
 body {
 	font-family: 'Poppins';
 	background: var(--main-bg-color);
@@ -22,4 +26,12 @@ body {
 
 .container {
 	background: var(--container-bg);
+}
+
+.btn{
+	display: inline-block;
+	background: #fff;
+	padding: 0 20px 0 0 ;
+	border-radius: 50px;
+	justify-content: space-between;
 }
