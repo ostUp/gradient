@@ -15,7 +15,7 @@ img {
 	box-sizing: border-box;
 }
 
-a{
+a {
 	text-decoration: none;
 }
 
@@ -28,10 +28,10 @@ body {
 	background: var(--container-bg);
 }
 
-.btn{
+.btn {
 	display: inline-block;
 	background: #fff;
-	padding: 0 20px 0 0 ;
+	padding: 0 20px 0 0;
 	border-radius: 50px;
 	justify-content: space-between;
 }
