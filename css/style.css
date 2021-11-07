@@ -46,9 +46,29 @@ body {
 	margin: 0 auto;
 	padding: 0 10%;
 }
-.main{
+
+.header {
+	justify-content: space-between;
+}
+
+.order-btn {
+	padding: 10px;
+	color: var(--bl);
+}
+
+.main {
 	flex-direction: column;
 }
+
+.main-top-right-img {
+	background-color: var(--wh);
+	border-radius: 15px;
+}
+
+.main-top {
+	justify-content: space-between;
+}
+
 .main-bottom-item {
 	background-color: var(--wh);
 	width: 40%;
@@ -61,15 +81,15 @@ body {
 	color: var(--bl);
 }
 
+.footer {
+	height: 60px;
+	padding: 15px 0 15px 0;
+}
+
 .drop {
 	font-family: 'Poppins';
 	border: none;
 	background-color: rgba(0, 0, 0, 0);
 	font-weight: 500;
 	font-size: 14px;
-}
-
-.footer {
-	height: 60px;
-	padding: 15px 0 15px 0;
 }
