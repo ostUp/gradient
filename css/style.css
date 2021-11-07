@@ -3,8 +3,8 @@
 :root {
 	--main-bg-color: linear-gradient(90deg, #69b7eb, #3affbd);
 	--container-bg: linear-gradient(180deg, #65bffa9c, #ff8888c9);
-	--wh: #fff;
-	--wh-c: #fff;
+	--wh: rgb(255, 255, 255);
+	--bl: #000;
 }
 
 .d-flex {
@@ -44,21 +44,32 @@ body {
 	border-radius: 15px;
 	background: var(--container-bg);
 	margin: 0 auto;
+	padding: 0 10%;
 }
-
+.main{
+	flex-direction: column;
+}
 .main-bottom-item {
 	background-color: var(--wh);
-	width: 180px;
-	padding: 20px 10px;
+	width: 40%;
+	padding: 10px 20px;
 	margin: 10px;
 	border-radius: 5px;
 }
 
 .main-bottom-item-paragreaph {
-	color: #000;
+	color: var(--bl);
 }
-.drop{
+
+.drop {
 	font-family: 'Poppins';
 	border: none;
-	color: var(--wh-c);
+	background-color: rgba(0, 0, 0, 0);
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.footer {
+	height: 60px;
+	padding: 15px 0 15px 0;
 }
