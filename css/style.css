@@ -3,6 +3,12 @@
 :root {
 	--main-bg-color: linear-gradient(90deg, #69b7eb, #3affbd);
 	--container-bg: linear-gradient(180deg, #65bffa9c, #ff8888c9);
+	--wh: #fff;
+	--wh-c: #fff;
+}
+
+.d-flex {
+	display: flex;
 }
 
 img {
@@ -24,14 +30,35 @@ body {
 	background: var(--main-bg-color);
 }
 
-.container {
-	background: var(--container-bg);
-}
-
 .btn {
 	display: inline-block;
-	background: #fff;
+	background: var(--wh);
 	padding: 0 20px 0 0;
 	border-radius: 50px;
 	justify-content: space-between;
+}
+
+.container {
+	max-width: 1100px;
+	border: 3px solid var(--wh);
+	border-radius: 15px;
+	background: var(--container-bg);
+	margin: 0 auto;
+}
+
+.main-bottom-item {
+	background-color: var(--wh);
+	width: 180px;
+	padding: 20px 10px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.main-bottom-item-paragreaph {
+	color: #000;
+}
+.drop{
+	font-family: 'Poppins';
+	border: none;
+	color: var(--wh-c);
 }
