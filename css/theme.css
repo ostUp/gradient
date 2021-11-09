@@ -3,8 +3,8 @@
 :root {
 	--main-bg-color: linear-gradient(90deg, #69b7eb, #3affbd);
 	--container-bg: linear-gradient(180deg, #65bffa9c, #ff8888c9);
-	--wh: rgb(255, 255, 255);
-	--bl: #000;
+	--wh: rgb(0, 0, 0);
+	--bl: rgb(255, 255, 255);
 }
 
 .d-flex {

@@ -9,7 +9,8 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css">
+	<link id="def-theme" rel="stylesheet" href="css/style.css">
+	<link id="theme" rel="stylesheet" href="css/theme.css">
 </head>
 
 <body>
@@ -21,7 +22,7 @@
 							class="header-search-img"></a>
 				</div>
 				<div class="header-top-right d-flex">
-					<a href="#" class="order header-top-btn order-btn">Order is arriving 10 minuts </a>
+					<a href="#" class="order header-top-btn order-btn">Order is arriving 10 minuts</a>
 					<a href="#" class="buy btn header-top-btn"></a>
 					<a href="#" class="sent btn header-top-btn"></a>
 					<a href="#" class="cabinet btn header-top-btn"></a>
@@ -92,15 +93,17 @@
 					</div>
 				</div>
 			</div>
-			<div class="footer">
+			<div class="footer d-flex">
 				<select class="drop">
 					<option value="drop-item">Queries History</option>
 					<option value="drop-item">Queries History</option>
 					<option value="drop-item">Queries History</option>
 				</select>
+				<button class="change-th" id='btn'>Change theme</button>
 			</div>
 		</div>
 	</div>
+	<script src="js/main.js"></script>
 </body>
 
 </html>
