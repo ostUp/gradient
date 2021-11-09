@@ -40,13 +40,36 @@ body {
 	margin: 10px 10px;
 	margin: 10px 10px;
 }
-.header-search-img{
+
+.cabinet {
+	background-image: url(/img/woman.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.buy {
+	background-image: url(/img/buy-icon.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 30px;
+}
+
+.sent {
+	background-image: url(/img/tg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 30px;
+}
+
+.header-search-img {
 	justify-content: center;
 	align-items: center;
 }
-.order{
+
+.order {
 	background: var(--wh);
-	color:var(--bl);
+	color: var(--bl);
 	margin: 0 auto;
 	border-radius: 50px;
 	justify-content: space-between;
