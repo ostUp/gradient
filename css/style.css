@@ -38,7 +38,15 @@ body {
 	border-radius: 50px;
 	justify-content: space-between;
 	margin: 10px 10px;
-	margin: 10px 10px;
+}
+
+.order {
+	background-image: url(/img/time.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 15px;
+	padding: 10px;
+	color: var(--bl);
 }
 
 .cabinet {
@@ -60,6 +68,13 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 30px;
+}
+
+.music {
+	background-image: url(/img/music.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 25px;
 }
 
 .header-search-img {
@@ -87,24 +102,23 @@ body {
 
 .header {
 	justify-content: space-between;
-}
-
-.order-btn {
-	padding: 10px;
-	color: var(--bl);
+	align-items: center;
 }
 
 .main {
 	flex-direction: column;
-}
-
-.main-top-right-img {
-	background-color: var(--wh);
-	border-radius: 15px;
+	margin-top: 20px;
 }
 
 .main-top {
 	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+.main-top-right {
+	align-items: center;
 }
 
 .main-bottom-item {
@@ -115,7 +129,8 @@ body {
 	border-radius: 5px;
 }
 
-.main-bottom-item-paragreaph {
+.main-bottom-item-paragraph {
+	align-items: center;
 	color: var(--bl);
 }
 
